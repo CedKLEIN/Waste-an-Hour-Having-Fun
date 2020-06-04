@@ -25,12 +25,18 @@ How to run in local :
 After having all tools download in local...
 (main.exe and game_test.exe are provided in the project).
 
+```
 $ cmake . -G "MinGW Makefiles"
 $ make
+```
 
 To run the game
+```
 $ main.exe
+```
 
 To run the unit test
+```
 $ cd test
 $ game_test.exe
+```
